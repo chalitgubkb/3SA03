@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import WordCard from './WordCard.js';
-
+import CharacterCard from './CharacterCard';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <WordCard value="HELLO"/>
-    </div>
+          <CharacterCard value="h"/>
+          <CharacterCard value="i"/>
+      </div>
     );
   }
 }
