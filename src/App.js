@@ -17,7 +17,9 @@ class App extends Component {
        <WordCard value="Fan"/>
        <h3>✍️ข้อ3 คอมพิวเตอร์ภาษาอังกฤษเขียนอย่างไรให้ถูกต้อง</h3>
         <WordCard value="computer"/>
+        
     </div>
+    
     );
   }
 }
