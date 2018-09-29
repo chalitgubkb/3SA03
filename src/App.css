@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -44,3 +45,24 @@
   color: rgb(255, 255, 255);
   background: rgb(247, 80, 108);
  }
+
+/* รูปแบบของFont ใช้เฉพาะหัวข้อ */
+h1 {
+  font-family: 'Mali', cursive;
+  font-size: 40px;
+  background-color: #d4b500e8;
+
+}
+
+/* รูปแบบของFont ใช้เฉพาะชื่อกับรหัส น.ศ */
+h2 {
+  font-family: 'Mali', cursive;
+    float: right;
+}
+
+/* รูปแบบของFont ใช้เฉพาะชื่อกับรหัส น.ศ */
+h3 {
+  font-size: 19px;
+  font-family: 'Mali', cursive;
+  color: red;
+}
