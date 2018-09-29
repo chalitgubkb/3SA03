@@ -27,14 +27,17 @@
   to { transform: rotate(360deg); }
 }
 
+
+/*ส่วนกำหนดรูปแบบของตัวอักษร*/
 .card {
   display: inline-block;
   text-align: center;
   width: 3em;
   font-size: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 6px 8px 0 rgba(255, 0, 0, 5.5);
   margin: 1em;
   user-select: none;
+  background: rgb(253, 165, 0);
  }
 
  .activeCard {
